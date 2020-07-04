@@ -10,10 +10,10 @@ from sklearn.metrics import precision_score
 from sklearn.metrics import accuracy_score
 import numpy as np
 
-stop_data_dir = 'stop_words.txt'         #停用词路径
-user_dict_dir = "userdict_all.txt"       #自定义词典路径
-train_data_dir  = 'train.xlsx'   ##必须包含 content 和 score 两列 ， utf-8格式
-test_data_dir = 'cqk.xlsx'   ##必须包含 content这一列， utf-8格式
+stop_data_dir = 'data/stop_words.txt'         #停用词路径
+user_dict_dir = "data/userdict_all.txt"       #自定义词典路径
+train_data_dir  = 'data/data.xlsx'   ##必须包含 content 和 score 两列 ， utf-8格式
+test_data_dir = 'data/cqk.xlsx'   ##必须包含 content这一列， utf-8格式
 output_dir = 'e:/output.xlsx'
 jieba.load_userdict(user_dict_dir)
 
